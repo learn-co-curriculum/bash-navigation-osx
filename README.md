@@ -53,11 +53,9 @@ Let's run our second Command Line program (our first was when you ran `learn hel
 Type `pwd` from your prompt. You should see something like:
 
 ```
-~
- $ pwd
+~ $ pwd
 /Users/avi
-~
-$
+~ $
 ```
 
 From my home directory, `~`, my Terminal presented me a prompt, `$`. I typed `pwd` and pressed Enter on my keyboard. My terminal responded with `/Users/avi` and returned me to my home directory, `~` and gave me a new prompt, `$`.
@@ -92,8 +90,7 @@ There's no place like `~`.
 Within a directory, one thing you're probably curious about is "what files are in this directory?". You can list files within your working directory by executing `ls`:
 
 ```
-~
-$ ls
+~ $ ls
 Applications  Development   Desktop
 Documents     Downloads     Public        		    
 ```
