@@ -62,7 +62,7 @@ From my home directory, `~`, my Terminal presented me a prompt, `$`. I typed `pw
 
 That's the standard procedure when you execute anything in Terminal, you enter a command from a prompt in a working directory, see output, and are returned to a new prompt in your working directory.
 
-The `pwd` command is an acronym for "Print Working Directroy." The `pwd` command prints the working directory of your Terminal session, the folder you are currently "in."
+The `pwd` command is an acronym for "Print Working Directory." The `pwd` command prints the working directory of your Terminal session, the folder you are currently "in."
 
 Knowing what directory you are working within is crucial when using your Terminal. You are opening files and running programs that live in directories and you need to make sure you're in the right directory for your task.
 
