@@ -134,7 +134,7 @@ You can also change directory back to your home directory from anywhere via `cd 
 
 ## `open ` - Opening Folders and Files
 
-When you're in Terminal, sometimes it is useful to open the current dirctory you're in, your working directory, in Finder. You can do this with `open .`. That will pop open the OS X Finder view of the directory you are in.
+When you're in Terminal, sometimes it is useful to open the current directory you're in, your working directory, in Finder. You can do this with `open .`. That will pop open the OS X Finder view of the directory you are in.
 
 ## `subl` - Opening Folders and Files in Sublime Text
 
