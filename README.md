@@ -144,4 +144,4 @@ If you want to open an entire directory in Sublime Text, try `subl .`
 
 When you're in Terminal, to autocomplete a directory or a command, start typing and then press TAB.
 
-<a href='https://learn.co/lessons/bash-navigation-osx' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/bash-navigation-osx' title='Navigating with BASH - OS X'>Navigating with BASH - OS X</a> on Learn.co and start learning to code for free.</p>
