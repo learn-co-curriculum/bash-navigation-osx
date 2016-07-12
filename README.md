@@ -92,7 +92,7 @@ Within a directory, one thing you're probably curious about is "what files are i
 ```
 ~ $ ls
 Applications  Development   Desktop
-Documents     Downloads     Public        		    
+Documents     Downloads     Public
 ```
 
 When we type `ls` in Terminal, we're asking our Terminal to list the files and folders in the current working directory.
@@ -137,11 +137,32 @@ You can also change directory back to your home directory from anywhere via `cd 
 When you're in Terminal, sometimes it is useful to open the current directory you're in, your working directory, in Finder. You can do this with `open .`. That will pop open the OS X Finder view of the directory you are in.
 
 ## `subl` - Opening Folders and Files in Sublime Text
+Sometimes it's handy to be able to open a directory or a file right in your text editor. If you're using SublimeText, you can configure the shortcut `subl` to do just that!
 
-If you want to open an entire directory in Sublime Text, try `subl .`
+To enable this shortcut, simply run
+
+```bash
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+```
+
+Now if you want to open an entire directory in Sublime Text, try `subl .`
+
+## `atom` — Opening Folders and Files in Atom
+
+Alternatively, is you're using [Atom](https://atom.io/), you can select "Install Shell Commands" from the menu under "Atom" — this will install the `atom` shortcut for you, which works just like `subl` above — simply run
+
+```
+atom .
+```
+
+to open your current directory.
 
 ### Hint: Tab Autocomplete
 
 When you're in Terminal, to autocomplete a directory or a command, start typing and then press TAB.
+
+## Resources
+
+- [Launch SublimeText 3 from the command line](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/bash-navigation-osx' title='Navigating with BASH - OS X'>Navigating with BASH - OS X</a> on Learn.co and start learning to code for free.</p>
